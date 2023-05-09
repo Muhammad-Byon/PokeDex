@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Poke DEX</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar shadow-lg fixed top-0 left-0 right-0 z-50">
+      <div class="navbar-start">
+          <div class="w-10 rounded-full">
+            <img src="img/logo.png" alt="logo" class="ransition duration-200 transform hover:scale-110"/>
+          </div>
+          <a class="btn btn-ghost normal-case text-xl">PokeDEX</a>
+        
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li tabindex="0">
+            <a>
+              <i class="fa fa-user" aria-hidden="true"></i>
+              Mom Compte
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+            </a>
+            <ul class="p-4 bg-primary">
+                <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-90"0>Pokemon 1</a></li>
+                <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-90"0>Pokemon 2</a></li>
+                <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-90"0>Pokemon 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i>Mes Favoris</a></li>
+          <li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i>Mon Panier</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered" />
+        </div>
+      </div>
+    </div>
+
+
+    <br/>
+    <br/>
+    <br/>
+    <!-- Hero -->
+    <div class="hero">
+      <main class="py-5">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+          <ul class="flex space-x-4">
+            <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-900">Pokemon</a></li>
+            <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-900">Pokemon</a></li>
+            <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-900">Pokemon</a></li>
+            <li><a href="#" class=" border-yellow-400 border hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium text-gray-900">Pokemon</a></li>
+          </ul>
+        </nav>
+        <main>
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        
+        <div class="flex justify-center ransition duration-200 transform hover:scale-110">
+          <div class="rounded-lg shadow-lg bg-gray-700 max-w-sm">
+            <a href="#!">
+              <img class="rounded-t-lg " src="img/9.png" />
+            </a>
+            <div class="p-6">
+              <div class="badge badge-warning">Hot</div>
+              <h5 class="text-white text-xl font-medium mb-2">Pikachu</h5>
+              <div class="flex">
+              <p class="text-white/50 text-base mb-4">Price</p>
+              <p class="text-white text-base mb-2 ml-14">US $29.5</p>
+            </div>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center ransition duration-200 transform hover:scale-110">
+          <div class="rounded-lg shadow-lg bg-gray-700 max-w-sm">
+            <a href="#!">
+              <img class="rounded-t-lg" src="img/9.png" alt=""/>
+            </a>
+            <div class="p-6">
+              <div class="badge badge-warning">Hot</div>
+              <h5 class="text-white text-xl font-medium mb-2">Pikachu</h5>
+              <div class="flex">
+              <p class="text-white/50 text-base mb-4">Price</p>
+              <p class="text-white text-base mb-2 ml-14">US $20.5</p>
+            </div>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div>
+            <h1 class="text-7xl font-bold">Acheter, revendre & collectionner </h1>
+            <p class="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            </br> been the industry' standard dummy text ever since the 1500s, when an unknown printer took a 
+            </br> galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+          </br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages..</p>
+          <div class="card-actions">
+            <button class="btn btn-glass ransition duration-200 transform hover:scale-110">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="hero2">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900">Pokemon List</h2>
+      <p class="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+      </br>been the industry' standard dummy text ever.
+      </p>
+
+      <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+        <div class="rounded-lg px-4 h-[500px] w-56">
+          <figure class="px-10 pt-10">
+            <img src="img/5.jpeg" alt="Pokemon" class="rounded-t-lg h-[200px] w-[250px] ransition duration-200 transform hover:scale-110" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Pokemon 1</h2>
+            <p>Pokemon go</p>
+            <div class="card-actions">
+              <button class="btn btn-primary ransition duration-200 transform hover:scale-110">Watch Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg px-4 h-[500px] w-56">
+          <figure class="px-10 pt-10">
+            <img src="img/5.jpeg" alt="Pokemon" class="rounded-t-lg h-[200px] w-[250px] ransition duration-200 transform hover:scale-110" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Pokemon 1</h2>
+            <p>Pokemon go</p>
+            <div class="card-actions">
+              <button class="btn btn-primary ransition duration-200 transform hover:scale-110">Watch Now</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="rounded-lg px-4 h-[500px] w-56">
+          <figure class="px-10 pt-10">
+            <img src="img/5.jpeg" alt="Pokemon" class="rounded-t-lg h-[200px] w-[250px] ransition duration-200 transform hover:scale-110" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Pokemon 1</h2>
+            <p>Pokemon go</p>
+            <div class="card-actions">
+              <button class="btn btn-primary ransition duration-200 transform hover:scale-110">Watch Now</button>
+            </div>
+          </div>
+        </div>
+        
+
+      <div style="position: relative; top: 20px;">
+        <!-- Isi elemen HTML di sini -->
+        <div class="card w-96 bg-base-120 shadow-xl">
+          <figure><img src="img/4.jpg" alt="Pokemon" class="box-content h-200 w-100 p-4  h-100 w-60 rounded-lg shadow-2xl m-4 ransition duration-200 transform hover:scale-110"/></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Pokemon
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>Pokemon Batu</p>
+            <div class="card-actions">
+              <button class="btn btn-primary ransition duration-200 transform hover:scale-110">Watch Now</button>
+            </div>
+          </div>
+        </div>  
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+</div>
+<div>
+
+  <!-- hero 2.1 -->
+<div class="relative">
+  <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+    <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+      <div class="sm:max-w-lg">
+        <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Summer styles are finally here</h1>
+        <p class="mt-4 text-xl text-black-500">This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die.</p>
+      </div>
+      <div>
+        <div class="mt-10">
+          <!-- Decorative image grid -->
+          <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+            <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+              <div class="flex items-center space-x-6 lg:space-x-8">
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                    <img src="img/poke.jpeg" alt="" class="h-full w-full object-cover object-center ransition duration-200 transform hover:scale-110">
+                  </div>
+                </div>
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="img/5.jpeg" alt="" class="h-full w-full object-cover object-center ransition duration-200 transform hover:scale-110">
+                  </div>
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="img/5.jpeg" alt="" class="h-full w-full object-cover object-center ransition duration-200 transform hover:scale-110">
+                  </div>
+                </div>
+                <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <img src="img/poke.jpeg" alt="" class="h-full w-full object-cover object-center ransition duration-200 transform hover:scale-110">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 ransition duration-200 transform hover:scale-110">Shop Collection</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="box-about">
+  <div class="container mx-auto flex flex-wrap py-12">
+    <div class="w-full md:w-1/2 mb-6 md:mb-5 relative">
+      <div class="carousel ml-5">
+        <div class="carousel-item w-5/6">
+          <img src="img/4.jpg" alt="Drink" />
+        </div> 
+        <div class="carousel-item w-5/6">
+          <img src="img/3.jpg" alt="Drink" />
+        </div> 
+        <div class="carousel-item w-5/6">
+          <img src="img/6.jpg" alt="Drink" />
+        </div>
+        <div class="carousel-item w-5/6">
+          <img src="img/7.jpeg" alt="Drink" />
+        </div>
+        <div class="carousel-item w-5/6">
+          <img src="img/3.jpg" alt="Drink" />
+        </div>
+
+      </div>
+    </div>
+    <div class="w-full md:w-1/2">
+      <h1 class="text-5xl font-bold text-gray-800 mb-6 ml-4">Tentang Pokemon</h1>
+      <p class="text-xl text-gray-600 mb-6 ml-4">Discover our latest collection of bikinis that will make you feel confident and beautiful.</p>
+      <a href="#" class="inline-block bg-blue-500 text-white py-3 px-8 rounded-full font-bold hover:bg-blue-600 ml-4 ransition duration-200 transform hover:scale-110">Go Now</a>
+    </div>
+
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 ">
+        <a href="#" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 ransition duration-200 transform hover:scale-110">
+            <img src="img/poke.jpeg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75 ">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700 ">Pokemon Wow</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        </a>
+        <a href="#" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 ransition duration-200 transform hover:scale-110">
+            <img src="img/poke.jpeg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Pokemon Wiw</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        </a>
+        <a href="#" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 ransition duration-200 transform hover:scale-110">
+            <img src="img/poke.jpeg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Pokemon Wew</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        </a>
+        <a href="#" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 ransition duration-200 transform hover:scale-110">
+            <img src="img/poke.jpeg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Pokemon Waw</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        </a>
+      </div>
+  
+    </div>
+  </div>
+    
+
+  </div>
+
+<div class="relative">
+  <div class="mx-5 md:mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2">
+    <div class="py-10">
+      <h1 class="text-2xl md:text-5xl text-black font-bold ">Product</h1>
+      <p class="text-black-300 text-sm md:text-base mt-5">
+        Lorean ipsun dolor sit aneat, conseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea eat dolorea nagna aliqua.
+        Ut eanin ad ninin veanian, quis nostrun eaxearcitationean ullan corporis suscipit laboriosan, nisi ut aliquid eax eaa connodi conseaquatur.
+      </p>
+    </div>
+  </div>
+  <div class="grid mx-2 md:mx-40 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-5 gap-5">
+    <div class="bg-white/5 p-6 rounded-lg ">
+      <img src="img/8.jpeg" alt="" class="h-20 mx-auto"/>
+      <h4 class="uppercase text-center text-black font-bold"> Pokemon Lets Go</h4>
+      <p class="text-sm leading-7 my-3 text-black-300 justify-center h-5">
+        Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+      </p>
+    </div>
+
+    <div class="bg-white/5 p-6 rounded-lg">
+      <img src="img/6.jpg" alt="" class="h-20 mx-auto"/>
+      <h4 class="uppercase text-center text-black font-bold"> Magic The Gathering </h4>
+      <p class="text-sm leading-7 my-3 text-black-300 justify-center">
+        Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+      </p>
+    </div>
+
+    <div class="bg-white/5 p-6 rounded-lg">
+      <img src="img/yugioh.png" alt="" class="h-20 mx-auto"/>
+      <h4 class="uppercase text-center text-black font-bold"> Yu Gi Oh </h4>
+      <p class="text-sm leading-7 my-3 text-black-300 justify-center">
+        Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+      </p>
+    </div>
+
+    <div class="bg-white/5 p-6 rounded-lg">
+      <img src="img/7.jpeg" alt="" class="h-20 mx-auto"/>
+      <h4 class="uppercase text-center text-black font-bold"> Dragon Shield </h4>
+      <p class="text-sm leading-7 my-3 text-black-300 justify-center">
+        Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+    <!-- footer -->
+    <footer class="footer p-10 text-base-content">
+      <div class="w-40 rounded-full ">
+          <!-- <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg> -->
+        <img src="img/logo.png" alt="logo" />
+        <p>Pokemon go.<br/>Providing reliable tech since 1992</p>
+      </div> 
+      <div>
+        <span class="footer-title">Services</span> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+    </footer>
+
+  <!-- <h1 class="text-[100px]">Hello, world!</h1> -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
